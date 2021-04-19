@@ -1,0 +1,87 @@
+import 'package:flutter/material.dart';
+
+///
+/// iconfont.cn 字体库
+///
+
+class IconFont{
+  static const String _family = 'IconFonts';
+  IconFont._();
+  static const IconData ic_clear_cache              = IconData(0xe616, fontFamily: _family);
+  static const IconData ic_hash_tag                 = IconData(0xe685, fontFamily: _family);
+  static const IconData ic_increase_number          = IconData(0xe687, fontFamily: _family);
+  static const IconData ic_password                 = IconData(0xe688, fontFamily: _family);
+  static const IconData ic_total_number             = IconData(0xe689, fontFamily: _family);
+  static const IconData ic_copy                     = IconData(0xe682, fontFamily: _family);
+  static const IconData ic_person_two               = IconData(0xe67f, fontFamily: _family);
+  static const IconData ic_person                   = IconData(0xe67e, fontFamily: _family);
+  static const IconData ic_switch                   = IconData(0xe674, fontFamily: _family);
+  static const IconData ic_creat_pocket             = IconData(0xe670, fontFamily: _family);
+  static const IconData ic_import_pocket            = IconData(0xe672, fontFamily: _family);
+  static const IconData ic_tab_setting              = IconData(0xe66e, fontFamily: _family);
+  static const IconData ic_tab_delegate             = IconData(0xe66f, fontFamily: _family);
+  static const IconData ic_security                 = IconData(0xe66b, fontFamily: _family);
+  static const IconData ic_creat                    = IconData(0xe66a, fontFamily: _family);
+  static const IconData ic_aboutus                  = IconData(0xe669, fontFamily: _family);
+  static const IconData ic_trade_time               = IconData(0xe665, fontFamily: _family);
+  static const IconData ic_trade_number             = IconData(0xe662, fontFamily: _family);
+  static const IconData ic_tx_height                = IconData(0xe663, fontFamily: _family);
+  static const IconData ic_trade_status             = IconData(0xe664, fontFamily: _family);
+  static const IconData ic_trade_record             = IconData(0xe661, fontFamily: _family);
+  static const IconData ic_get_money_address        = IconData(0xe657, fontFamily: _family);
+  static const IconData ic_net_fee1                 = IconData(0xe658, fontFamily: _family);
+  static const IconData ic_warning                  = IconData(0xe65a, fontFamily: _family);
+  static const IconData ic_note_write               = IconData(0xe65b, fontFamily: _family);
+  static const IconData ic_modify                   = IconData(0xe65d, fontFamily: _family);
+  static const IconData ic_check                    = IconData(0xe65e, fontFamily: _family);
+  static const IconData ic_pay                      = IconData(0xe65f, fontFamily: _family);
+  static const IconData ic_close                    = IconData(0xe660, fontFamily: _family);
+  static const IconData ic_tortoise                 = IconData(0xe653, fontFamily: _family);
+  static const IconData ic_rabbit                   = IconData(0xe655, fontFamily: _family);
+  static const IconData ic_arrow_down               = IconData(0xe64f, fontFamily: _family);
+  static const IconData ic_arrow_up                 = IconData(0xe650, fontFamily: _family);
+  static const IconData ic_tab_setting_2            = IconData(0xe64d, fontFamily: _family);
+  static const IconData ic_dropdownone              = IconData(0xe63f, fontFamily: _family);
+  static const IconData ic_arrowone                 = IconData(0xe64e, fontFamily: _family);
+  static const IconData ic_backarrow                = IconData(0xe639, fontFamily: _family);
+  static const IconData ic_check_cirle              = IconData(0xe63b, fontFamily: _family);
+  static const IconData ic_more                     = IconData(0xe63c, fontFamily: _family);
+  static const IconData ic_delegate_2               = IconData(0xe63d, fontFamily: _family);
+  static const IconData ic_asset_available          = IconData(0xe63e, fontFamily: _family);
+  static const IconData ic_scan                     = IconData(0xe640, fontFamily: _family);
+  static const IconData ic_asset_delegate           = IconData(0xe641, fontFamily: _family);
+  static const IconData ic_qr_code                  = IconData(0xe642, fontFamily: _family);
+  static const IconData ic_asset_undelegation       = IconData(0xe643, fontFamily: _family);
+  static const IconData ic_asset_rewards            = IconData(0xe644, fontFamily: _family);
+  static const IconData ic_delegate_3               = IconData(0xe645, fontFamily: _family);
+  static const IconData ic_recipient                = IconData(0xe647, fontFamily: _family);
+  static const IconData ic_wallet_2                 = IconData(0xe64b, fontFamily: _family);
+  static const IconData ic_tab_asset                = IconData(0xe66d, fontFamily: _family);
+  static const IconData ic_contact_us               = IconData(0xe603, fontFamily: _family);
+  static const IconData ic_guide                    = IconData(0xe602, fontFamily: _family);
+  static const IconData ic_question                 = IconData(0xe93a, fontFamily: _family);
+  static const IconData ic_node                     = IconData(0xe698, fontFamily: _family);
+  static const IconData ic_security_solution        = IconData(0xe64a, fontFamily: _family);
+  static const IconData ic_delegate                 = IconData(0xe68c, fontFamily: _family);
+  static const IconData ic_tx_record                = IconData(0xe614, fontFamily: _family);
+  static const IconData ic_rabbit_2                 = IconData(0xe620, fontFamily: _family);
+  static const IconData ic_tortoise_2               = IconData(0xe638, fontFamily: _family);
+  static const IconData ic_fail                     = IconData(0xe695, fontFamily: _family);
+  static const IconData ic_success                  = IconData(0xe608, fontFamily: _family);
+  static const IconData ic_no_data                  = IconData(0xe62a, fontFamily: _family);
+  static const IconData ic_tx_record_light          = IconData(0xe604, fontFamily: _family);
+  static const IconData ic_edit                     = IconData(0xe700, fontFamily: _family);
+  static const IconData ic_clear                    = IconData(0xe622, fontFamily: _family);
+  static const IconData ic_contact_book             = IconData(0xe613, fontFamily: _family);
+  static const IconData ic_save                     = IconData(0xe612, fontFamily: _family);
+  static const IconData ic_wallet                   = IconData(0xe671, fontFamily: _family);
+  static const IconData ic_info                     = IconData(0xe6aa, fontFamily: _family);
+  static const IconData ic_multilanguage            = IconData(0xe600, fontFamily: _family);
+  static const IconData ic_new_version              = IconData(0xe615, fontFamily: _family);
+  static const IconData ic_return                   = IconData(0xe60f, fontFamily: _family);
+  static const IconData ic_copy_2                   = IconData(0xe6cd, fontFamily: _family);
+  static const IconData ic_contacts                 = IconData(0xe74f, fontFamily: _family);
+  static const IconData ic_tx_address               = IconData(0xe692, fontFamily: _family);
+  static const IconData ic_pay_2                    = IconData(0xe646, fontFamily: _family);
+  static const IconData ic_cash                     = IconData(0xe686, fontFamily: _family);
+}
