@@ -1,0 +1,107 @@
+name: wallet
+description: A decentralized wallet application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 3.6.10+148
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # 本地语言包
+  flutter_localizations:
+    sdk: flutter
+  flutter_i18n: ^0.15.0
+  cupertino_icons: ^0.1.3
+  # 网络库
+  dio: ^3.0.9
+  # 缓存数据
+  shared_preferences: ^0.5.3+9
+  event_bus: ^1.1.1
+  fluttertoast: ^3.1.3
+  groovin_material_icons: ^1.1.6
+  # 设备相关信息
+  package_info: ^0.4.0+14
+  # 进度条
+  modal_progress_hud: ^0.1.3
+  # 文档的插件
+  path_provider: ^1.6.1
+  # 缓存数据
+  scoped_model: ^1.0.1
+  # 日期、时间 格式化
+  date_format: ^1.0.8
+  # 图片加载库
+  image_picker: ^0.6.3+4
+  # 点击、手势、两只手指撑开将图片放大
+  photo_view: ^0.8.2
+  # 拼音
+  lpinyin: ^1.0.9
+  # 异步加载
+  async_loader: ^0.1.2
+  # 权限申请
+  permission_handler: ^3.3.0
+  # 日历选择器
+  flutter_cupertino_date_picker: ^1.0.12
+  # 选择器
+  flutter_picker: ^1.1.3
+  # 本地数据库
+  sqflite: ^1.3.0+2
+  #wallet
+  sacco: ^0.1.4
+  # 生成二维码
+  qr_flutter: ^3.2.0
+  # 扫描二维码
+  barcode_scan: ^3.0.1
+  # bugly升级
+  flutter_bugly: ^0.2.8
+  # 本地文件存储
+  open_file: ^2.1.1
+  flutter_webview_plugin: ^0.3.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  test: ^1.5.1
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/i18n/
+    - assets/images/logo_transparent.png
+    - assets/images/logo_white.png
+    - assets/images/doubt.png
+    - assets/images/card_bg.png
+    - assets/images/card_bg_2.png
+    - assets/images/card_bg_3.png
+    - assets/images/card_shadow.png
+
+  fonts:
+    - family: IconFonts
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #         style: italic
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Modify this file to customize your launch splash screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@mipmap/welcome" />
+    </item>
+    <item
+        android:gravity="center"
+        android:bottom="200dp">
+        <bitmap
+            android:gravity="bottom"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+</layer-list>
